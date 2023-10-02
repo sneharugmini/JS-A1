@@ -1,0 +1,90 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #fce4ec; 
+    color: #800080; 
+    margin: 0;
+    padding: 0;
+}
+
+
+#page-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #b4ebf6; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+h1 {
+    color: #ff69b4; 
+    text-align: center;
+}
+
+
+button {
+    background-color: #ff69b4; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #800080; 
+}
+
+
+h2 {
+    color: #ff69b4; 
+    text-align: center;
+}
+
+
+p {
+    font-weight: bold;
+}
+
+
+#playback,
+#random {
+    background-color: #ff69b4; 
+    color: #fff;
+}
+
+#playback:hover,
+#random:hover {
+    background-color: #800080; 
+}
+
+
+#story {
+    background-color: #fff; 
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ff69b4; 
+    border-radius: 5px;
+}
+
+
+#addInfoButton {
+    background-color: #ff69b4; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+    transition: background-color 0.3s ease;
+}
+
+#addInfoButton:hover {
+    background-color: #800080; 
+}
